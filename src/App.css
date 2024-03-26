@@ -1,0 +1,29 @@
+.store-item {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.store-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.fav {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: rgb(82, 89, 229);
+    cursor: pointer;
+    display: none;
+}
+.favorite{
+    color: rgb(246, 31, 31);
+}
+.store-item:hover .fav{
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .productDetails{
+      flex-direction: column;
+    }
+}
+

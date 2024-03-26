@@ -1,0 +1,584 @@
+[
+  {
+    "id": 1,
+    "brand": "Dell",
+    "model": "XPS 13",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "13.4 inches",
+    "resolution": "3840 x 2400",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.8 lbs",
+    "price": 1299.99,
+    "colors": [
+      "Platinum Silver",
+      "Frost White"
+    ],
+    "description": "The Dell XPS 13 is a premium ultrabook with a stunning 4K display and powerful performance.",
+    "image": "/imags/lap-1.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "HP",
+    "model": "HP Spectre x360",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "display_size": "13.3 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.87 lbs",
+    "price": 1399.99,
+    "colors": [
+      "Nightfall Black",
+      "Poseidon Blue"
+    ],
+    "description": "The HP Spectre x360 is a versatile 2-in-1 laptop with a sleek design and long battery life.",
+    "image": "/imags/lap-2.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Apple",
+    "model": "MacBook Air",
+    "release_year": 2020,
+    "processor": "Apple M1",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display_size": "13.3 inches",
+    "resolution": "2560 x 1600",
+    "graphics_card": "Apple GPU",
+    "weight": "2.8 lbs",
+    "price": 999.99,
+    "colors": [
+      "Space Gray",
+      "Silver"
+    ],
+    "description": "The MacBook Air with Apple's M1 chip offers impressive performance and battery life.",
+    "image": "/imags/lap-3.png"
+  },
+  {
+    "id": 4,
+    "brand": "Lenovo",
+    "model": "ThinkPad X1 Carbon",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "14.0 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.49 lbs",
+    "price": 1499.99,
+    "colors": [
+      "Black"
+    ],
+    "description": "The Lenovo ThinkPad X1 Carbon is a premium business laptop known for its durability and performance.",
+    "image": "/imags/lap-4.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "Acer",
+    "model": "Acer Predator Helios 300",
+    "release_year": 2021,
+    "processor": "Intel Core i7-11800H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "NVIDIA GeForce RTX 3060",
+    "weight": "5.51 lbs",
+    "price": 1299.99,
+    "colors": [
+      "Abyssal Black"
+    ],
+    "description": "The Acer Predator Helios 300 is a gaming laptop with powerful hardware and a high-refresh-rate display.",
+    "image": "/imags/lap-5.png"
+  },
+  {
+    "id": 6,
+    "brand": "Microsoft",
+    "model": "Surface Laptop 4",
+    "release_year": 2021,
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display_size": "13.5 inches",
+    "resolution": "2256 x 1504",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.79 lbs",
+    "price": 1099.99,
+    "colors": [
+      "Platinum",
+      "Ice Blue",
+      "Sandstone"
+    ],
+    "description": "The Microsoft Surface Laptop 4 offers a premium design and smooth performance.",
+    "image": "/imags/lap-6.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "ASUS",
+    "model": "ASUS ROG Zephyrus G14",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 9 5900HS",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "display_size": "14 inches",
+    "resolution": "2560 x 1440",
+    "graphics_card": "NVIDIA GeForce RTX 3060",
+    "weight": "3.75 lbs",
+    "price": 1499.99,
+    "colors": [
+      "Moonlight White",
+      "Eclipse Gray"
+    ],
+    "description": "The ASUS ROG Zephyrus G14 is a powerful gaming laptop with a compact form factor and excellent performance.",
+    "image": "/imags/lap-7.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Lenovo",
+    "model": "Lenovo Yoga C940",
+    "release_year": 2020,
+    "processor": "Intel Core i7-1065G7",
+    "ram": "12GB",
+    "storage": "512GB SSD",
+    "display_size": "14 inches",
+    "resolution": "3840 x 2160",
+    "graphics_card": "Intel Iris Plus Graphics",
+    "weight": "2.98 lbs",
+    "price": 1199.99,
+    "colors": [
+      "Iron Gray",
+      "Mica"
+    ],
+    "description": "The Lenovo Yoga C940 is a premium 2-in-1 laptop with a 4K touchscreen and versatile design.",
+    "image": "/imags/lap-8.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "HP",
+    "model": "HP Envy x360",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 7 5700U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "13.3 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "AMD Radeon Graphics",
+    "weight": "2.87 lbs",
+    "price": 1199.99,
+    "colors": [
+      "Natural Silver"
+    ],
+    "description": "The HP Envy x360 is a versatile 2-in-1 laptop with powerful AMD Ryzen performance and a sleek design.",
+    "image": "/imags/lap-9.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Acer",
+    "model": "Acer Swift 3",
+    "release_year": 2021,
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display_size": "14 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.65 lbs",
+    "price": 799.99,
+    "colors": [
+      "Silver"
+    ],
+    "description": "The Acer Swift 3 is a lightweight and affordable laptop for everyday use.",
+    "image": "/imags/lap-10.jpg"
+  },
+  {
+    "id": 11,
+    "brand": "Microsoft",
+    "model": "Surface Pro 7",
+    "release_year": 2019,
+    "processor": "Intel Core i5-1035G4",
+    "ram": "8GB",
+    "storage": "128GB SSD",
+    "display_size": "12.3 inches",
+    "resolution": "2736 x 1824",
+    "graphics_card": "Intel Iris Plus Graphics",
+    "weight": "1.7 lbs",
+    "price": 899.99,
+    "colors": [
+      "Platinum",
+      "Black"
+    ],
+    "description": "The Microsoft Surface Pro 7 is a versatile 2-in-1 laptop with a detachable keyboard and stylus support.",
+    "image": "/imags/lap-11.jpg"
+  },
+  {
+    "id": 12,
+    "brand": "LG",
+    "model": "LG Gram 17",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "17 inches",
+    "resolution": "2560 x 1600",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.98 lbs",
+    "price": 1499.99,
+    "colors": [
+      "Dark Silver"
+    ],
+    "description": "The LG Gram 17 is an ultralight laptop with a large 17-inch display, making it ideal for productivity.",
+    "image": "/imags/lap-12.jpg"
+  },
+  {
+    "id": 13,
+    "brand": "Apple",
+    "model": "MacBook Pro 16-inch",
+    "release_year": 2019,
+    "processor": "Intel Core i9",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "display_size": "16 inches",
+    "resolution": "3072 x 1920",
+    "graphics_card": "AMD Radeon Pro 5500M",
+    "weight": "4.3 lbs",
+    "price": 2399.99,
+    "colors": [
+      "Space Gray",
+      "Silver"
+    ],
+    "description": "The MacBook Pro 16-inch offers powerful performance and a stunning Retina display.",
+    "image": "/imags/lap-13.jpeg"
+  },
+  {
+    "id": 14,
+    "brand": "Razer",
+    "model": "Razer Blade 15",
+    "release_year": 2021,
+    "processor": "Intel Core i7-11800H",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "NVIDIA GeForce RTX 3080",
+    "weight": "4.4 lbs",
+    "price": 2599.99,
+    "colors": [
+      "Black"
+    ],
+    "description": "The Razer Blade 15 is a high-performance gaming laptop with a sleek design and RGB keyboard.",
+    "image": "/imags/lap-14.jpg"
+  },
+  {
+    "id": 15,
+    "brand": "Dell",
+    "model": "Dell Inspiron 14",
+    "release_year": 2021,
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "display_size": "14 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "3.39 lbs",
+    "price": 749.99,
+    "colors": [
+      "Platinum Silver"
+    ],
+    "description": "The Dell Inspiron 14 is a budget-friendly laptop with a compact design and decent performance.",
+    "image": "/imags/lap-15.jpg"
+  },
+  {
+    "id": 16,
+    "brand": "HP",
+    "model": "HP Omen 15",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 9 5900HX",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "NVIDIA GeForce RTX 3070",
+    "weight": "5.43 lbs",
+    "price": 1799.99,
+    "colors": [
+      "Shadow Black"
+    ],
+    "description": "The HP Omen 15 is a gaming laptop with powerful AMD Ryzen and NVIDIA RTX performance.",
+    "image": "/imags/lap-16.jpg"
+  },
+  {
+    "id": 17,
+    "brand": "ASUS",
+    "model": "ASUS VivoBook 15",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 5 5500U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "AMD Radeon Graphics",
+    "weight": "3.75 lbs",
+    "price": 799.99,
+    "colors": [
+      "Slate Grey"
+    ],
+    "description": "The ASUS VivoBook 15 is a budget-friendly laptop with a large display and solid performance.",
+    "image": "/imags/lap-17.jpg"
+  },
+  {
+    "id": 18,
+    "brand": "Microsoft",
+    "model": "Surface Laptop Go",
+    "release_year": 2020,
+    "processor": "Intel Core i5-1035G1",
+    "ram": "8GB",
+    "storage": "128GB SSD",
+    "display_size": "12.4 inches",
+    "resolution": "1536 x 1024",
+    "graphics_card": "Intel UHD Graphics",
+    "weight": "2.45 lbs",
+    "price": 699.99,
+    "colors": [
+      "Ice Blue"
+    ],
+    "description": "The Microsoft Surface Laptop Go is a compact and lightweight laptop for everyday tasks.",
+    "image": "/imags/lap-18.jpg"
+  },
+  {
+    "id": 19,
+    "brand": "Lenovo",
+    "model": "Lenovo ThinkPad X1 Carbon",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "14 inches",
+    "resolution": "2560 x 1440",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.49 lbs",
+    "price": 1599.99,
+    "colors": [
+      "Black"
+    ],
+    "description": "The Lenovo ThinkPad X1 Carbon is a business laptop with a lightweight design and excellent keyboard.",
+    "image": "/imags/lap-19.jpg"
+  },
+  {
+    "id": 20,
+    "brand": "Acer",
+    "model": "Acer Chromebook Spin 13",
+    "release_year": 2020,
+    "processor": "Intel Core i5-10210U",
+    "ram": "8GB",
+    "storage": "128GB eMMC",
+    "display_size": "13.5 inches",
+    "resolution": "2256 x 1504",
+    "graphics_card": "Intel UHD Graphics 620",
+    "weight": "3.53 lbs",
+    "price": 799.99,
+    "colors": [
+      "Steel Gray"
+    ],
+    "description": "The Acer Chromebook Spin 13 is a 2-in-1 Chromebook with a high-resolution display and long battery life.",
+    "image": "/imags/lap-20.jpg"
+  },
+  {
+    "id": 21,
+    "brand": "Dell",
+    "model": "Dell XPS 13",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "13.4 inches",
+    "resolution": "3840 x 2400",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.8 lbs",
+    "price": 1799.99,
+    "colors": [
+      "Platinum Silver"
+    ],
+    "description": "The Dell XPS 13 is a premium ultrabook with a stunning 4K display and exceptional build quality.",
+    "image": "/imags/lap-21.jpg"
+  },
+  {
+    "id": 22,
+    "brand": "MSI",
+    "model": "MSI GS66 Stealth",
+    "release_year": 2021,
+    "processor": "Intel Core i9-11980HK",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "2560 x 1440",
+    "graphics_card": "NVIDIA GeForce RTX 3080",
+    "weight": "4.63 lbs",
+    "price": 2499.99,
+    "colors": [
+      "Core Black"
+    ],
+    "description": "The MSI GS66 Stealth is a high-performance gaming laptop with a sleek and stealthy design.",
+    "image": "/imags/lap-22.jpg"
+  },
+  {
+    "id": 23,
+    "brand": "HP",
+    "model": "HP Spectre x360 13",
+    "release_year": 2021,
+    "processor": "Intel Core i7-1165G7",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "13.3 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.87 lbs",
+    "price": 1299.99,
+    "colors": [
+      "Nightfall Black"
+    ],
+    "description": "The HP Spectre x360 13 is a premium 2-in-1 laptop with a sleek design and vibrant display.",
+    "image": "/imags/lap-23.jpg"
+  },
+  {
+    "id": 24,
+    "brand": "Dell",
+    "model": "Dell XPS 15",
+    "release_year": 2022,
+    "processor": "Intel Core i9-11900H",
+    "ram": "32GB",
+    "storage": "1TB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "3840 x 2160",
+    "graphics_card": "NVIDIA GeForce RTX 3060",
+    "weight": "4.0 lbs",
+    "price": 1999.99,
+    "colors": [
+      "Platinum Silver",
+      "Frost White"
+    ],
+    "description": "The Dell XPS 15 is a premium laptop with a stunning 4K display and powerful performance.",
+    "image": "/imags/lap-24.jpg"
+  },
+  {
+    "id": 25,
+    "brand": "Lenovo",
+    "model": "Lenovo Yoga C740",
+    "release_year": 2020,
+    "processor": "Intel Core i7-10510U",
+    "ram": "12GB",
+    "storage": "256GB SSD",
+    "display_size": "14 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel UHD Graphics 620",
+    "weight": "3.09 lbs",
+    "price": 899.99,
+    "colors": [
+      "Mica"
+    ],
+    "description": "The Lenovo Yoga C740 is a 2-in-1 laptop with a sleek design and excellent battery life.",
+    "image": "/imags/lap-25.jpg"
+  },
+  {
+    "id": 26,
+    "brand": "Acer",
+    "model": "Acer Aspire 5",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 5 5500U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "AMD Radeon Graphics",
+    "weight": "4.19 lbs",
+    "price": 699.99,
+    "colors": [
+      "Silver"
+    ],
+    "description": "The Acer Aspire 5 is an affordable laptop with solid performance and a full HD display.",
+    "image": "/imags/lap-26.jpg"
+  },
+  {
+    "id": 27,
+    "brand": "Microsoft",
+    "model": "Microsoft Surface Laptop 4",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 7 4980U",
+    "ram": "16GB",
+    "storage": "256GB SSD",
+    "display_size": "13.5 inches",
+    "resolution": "2256 x 1504",
+    "graphics_card": "AMD Radeon Graphics",
+    "weight": "2.79 lbs",
+    "price": 1299.99,
+    "colors": [
+      "Platinum"
+    ],
+    "description": "The Microsoft Surface Laptop 4 offers a premium Windows experience with excellent battery life.",
+    "image": "/imags/lap-27.jpg"
+  },
+  {
+    "id": 28,
+    "brand": "HP",
+    "model": "HP Spectre x360 13",
+    "release_year": 2022,
+    "processor": "Intel Core i7-1260U",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "13.3 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "Intel Iris Xe Graphics",
+    "weight": "2.8 lbs",
+    "price": 1399.99,
+    "colors": [
+      "Nightfall Black",
+      "Poseidon Blue",
+      "Natural Silver"
+    ],
+    "description": "The HP Spectre x360 13 is a versatile 2-in-1 laptop with a premium design and vibrant display.",
+    "image": "/imags/lap-28.jpg"
+  },
+  {
+    "id": 29,
+    "brand": "Lenovo",
+    "model": "Lenovo Legion 5",
+    "release_year": 2021,
+    "processor": "AMD Ryzen 7 5800H",
+    "ram": "16GB",
+    "storage": "1TB SSD",
+    "display_size": "15.6 inches",
+    "resolution": "1920 x 1080",
+    "graphics_card": "NVIDIA GeForce RTX 3060",
+    "weight": "5.41 lbs",
+    "price": 1299.99,
+    "colors": [
+      "Phantom Blue"
+    ],
+    "description": "The Lenovo Legion 5 is a gaming laptop with powerful AMD Ryzen and NVIDIA RTX performance.",
+    "image": "/imags/lap-29.jpg"
+  },
+  {
+    "id": 30,
+    "brand": "Apple",
+    "model": "MacBook Pro 14-inch",
+    "release_year": 2021,
+    "processor": "Apple M1 Pro",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "display_size": "14 inches",
+    "resolution": "3024 x 1964",
+    "graphics_card": "Apple M1 Pro GPU",
+    "weight": "3.5 lbs",
+    "price": 1999.99,
+    "colors": [
+      "Space Gray"
+    ],
+    "description": "The MacBook Pro 14-inch with Apple's M1 Pro chip offers exceptional performance and a stunning display.",
+    "image": "/imags/lap-30.png"
+  }
+]
