@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import storeItems from "../data/storeItems.json";
 import { Button } from "react-bootstrap";
@@ -8,6 +8,10 @@ const ProductDetails = (id) => {
   const { productId } = useParams();
   const product = storeItems.find((item) => item.id === parseInt(productId));
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   return (
     <div>
